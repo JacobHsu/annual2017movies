@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang="en" ng-app="moviesApp">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>2017年電影推薦</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.fullpage/2.5.9/jquery.fullPage.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <style>
+    .checked {
+        color: orange;
+    }
+    </style>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <meta property="og:site_name" content="annual2017movies" />
+    <meta property="og:title" content="玉玲瓏看電影 2017年度推薦" />
+    <meta property="og:description" content="回顧過去一年的電影生活。" />
+    <meta property="og:image" content="pics/movies2017.jpg" />
+
+    <script type="text/javascript" src="js/do.js" data-cfg-autoload="false"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="js/controllers.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111743866-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-111743866-1');
+    </script>
+</head>
+<body id="loading" ng-controller="listCtrl">
+        <div class="msk">
+            <div class="wp">
+                <h1>玉玲瓏2017電影心得 載入中...</h1>
+            </div>
+        </div>
+    <header id="header" class="container clearfix"></header>
+    <div id="main">
+        <div class="section start-page-widget" data-anchor="0">
+            
+            <div class="bg enable-animate" style="background: #000;">
+                    <div class="bg-items clearfix">
+                        <div class="bg-items-inner">
+                            <div class="bg-item" data-src="pics/movies2017.jpg"></div>
+                        </div>
+                    </div>
+            </div>
+
+            <img src="pics/down.png" alt="Down" class="down-btn">
+
+        </div>
+
+        <div class="section top-10-widget" data-anchor="{{index+1}}" ng-repeat="(index,data) in movies" >
+            <div ng-include="'template1.html'"></div>
+        </div>    
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.15/jquery.touchSwipe.min.js"></script>
+        <script src="https://cdn.bootcss.com/jquerykeyframes/0.0.9/jquery.keyframes.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script> 
+
+        <script type="text/javascript">
+            Do.add('slimscroll', {path: 'https://cdn.bootcss.com/fullPage.js/2.7.6/vendors/jquery.slimscroll.min.js', type: 'js'});
+            Do.add('fullPage', {path: 'https://cdn.bootcss.com/fullPage.js/2.7.6/jquery.fullPage.min.js', type: 'js', requires: ['slimscroll', 'easings']});
+
+            var isMobile = 'False' === 'True';
+            var DB_CONF = {
+                isLogin: 'False' === 'True'
+            };
+        </script>
+
+        <script src="js/index.js"></script>
+    </div>
+</body>
+
+
+</html>

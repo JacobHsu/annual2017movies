@@ -1,0 +1,209 @@
+[
+    {
+        "year": "2017個人評價最高的",
+        "type": "超級英雄片",
+        "name": "雷神索爾3: 諸神黃昏",
+        "title": "Thor: Ragnarok",
+        "star": "",
+        "bgImg": "https://images7.alphacoders.com/885/thumb-1920-885537.jpg",
+        "list": ["Thor: Ragnarok","Logan","Justice League","Wonder Woman","Spider-Man: Homecoming","Guardians of the Galaxy Vol. 2"]
+    }, 
+    {
+        "year": "2017個人評價最高的",
+        "type": "愛情片",
+        "name": "神力女超人",
+        "title": "Wonder Woman",
+        "star": "checked",
+        "bgImg": "https://images5.alphacoders.com/832/thumb-1920-832139.jpg",
+        "list": ["Wonder Woman","Beauty and the Beast"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "動畫片",
+        "name": "樂高蝙蝠俠電影",
+        "title": "The Lego Batman Movie",
+        "star": "",
+        "bgImg": "https://images8.alphacoders.com/777/thumb-1920-777537.jpg",
+        "list": ["Despicable Me 3","The Lego Batman Movie","Resident Evil: Vendetta"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "奇幻片",
+        "name": "與神同行",
+        "title": "Along with the Gods",
+        "star": "checked",
+        "bgImg": "https://img.mvmv.com.tw/gallery/24702/photos_24702_1509942225_334a9c02b0fdbf6f5871a840c1535bdf.jpg",
+        "list": ["Along with the Gods","Pirates of the Caribbean:Dead Men Tell No Tales","King Arthur: Legend of the Sword","The Mummy","Beauty and the Beast"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "科幻片",
+        "name": "星際特工: 千星之城",
+        "title": "Valerian and the City of a Thousand Planets",
+        "star": "",
+        "bgImg": "https://i.pinimg.com/originals/ab/32/69/ab3269673c7c6e9794797c1ceab3b18d.jpg",
+        "list": ["Valerian and the City of a Thousand Planets","What Happened To Monday","Ghost in the Shell","Star Wars: The Last Jedi","Colossal","War for the Planet of the Apes","Alien: Covenant","Transformers: The Last Knight"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "戰爭片",
+        "name": "敦克爾克大行動",
+        "title": "Dunkirk",
+        "star": "checked",
+        "bgImg": "https://images7.alphacoders.com/855/thumb-1920-855790.jpg",
+        "list": ["Dunkirk","War for the Planet of the Apes"]
+    },   
+    {
+        "year": "2017個人評價最高的",
+        "type": "驚悚片",
+        "name": "逃出絕命鎮",
+        "title": "Get Out",
+        "star": "",
+        "bgImg": "http://www.blackholemedia.online/wp-content/uploads/2017/03/la-fi-ct-movie-projector-get-out-20170221.jpg",
+        "list": ["Get Out","Split","Who Killed Cock Robin","It","Alien: Covenant","Wind River"]
+    }, 
+    {
+        "year": "2017個人評價最高的",
+        "type": "特務片",
+        "name": "金牌特務2: 機密對決",
+        "title": "Kingsman: The Golden Circle",
+        "star": "",
+        "bgImg": "https://www.hdwallpapers.in/walls/kingsman_the_golden_circle_4k_2017-wide.jpg",
+        "list": ["Kingsman: The Golden Circle","Allied"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "喜劇片",
+        "name": "雷神索爾3: 諸神黃昏",
+        "title": "Thor: Ragnarok",
+        "star": "",
+        "bgImg": "https://images7.alphacoders.com/874/874950.jpg",
+        "list": ["Thor: Ragnarok","Girls Trip","The Village Of No Return","Gintama"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "劇情片",
+        "name": "佈局",
+        "title": "The Invisible Guest",
+        "star": "",
+        "bgImg": "https://www.lascimmiapensa.com/wp-content/uploads/2017/07/contra.jpg",
+        "list": ["Miss Sloane","The Invisible Guest"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "動作片",
+        "name": "捍衛任務2: 殺神回歸",
+        "title": "John Wick: Chapter 2",
+        "star": "",
+        "bgImg": "https://images3.alphacoders.com/746/746551.jpg",
+        "list": ["John Wick: Chapter 2","The Fate of the Furious","xXx: Return of Xander Cage","Baby Driver"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "殭屍片",
+        "name": "惡靈古堡：血仇",
+        "title": "Resident Evil: Vendetta",
+        "star": "",
+        "bgImg": "http://assets1.ignimgs.com/2017/06/23/resident-evil-vendetta-1920a-1498261470573_1280w.jpg",
+        "list": ["Resident Evil: The Final Chapter","Resident Evil: Vendetta"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "真人真事改編",
+        "name": "敦克爾克大行動",
+        "title": "Dunkirk",
+        "star": "checked",
+        "bgImg": "https://images2.alphacoders.com/861/thumb-1920-861311.jpg",
+        "list": ["Dunkirk","Dangal","A Taxi Driver","Land of Mine"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "小說改編",
+        "name": "為了與你相遇",
+        "title": "A Dog's Purpose",
+        "star": "",
+        "bgImg": "https://images2.alphacoders.com/739/thumb-1920-739420.jpg",
+        "list": ["A Dog's Purpose","Murder on the Orient Express","It"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "漫畫改編",
+        "name": "與神同行",
+        "title": "Along with the Gods",
+        "star": "checked",
+        "bgImg": "https://img.mvmv.com.tw/gallery/24702/photos_24702_1510823804_6f7b4f0f7e4af6b13b1176bcafc904d0.jpg",
+        "list": ["Along with the Gods","Teiichi","Gintama"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "續集電影",
+        "name": "捍衛任務2: 殺神回歸",
+        "title": "John Wick: Chapter 2",
+        "star": "",
+        "bgImg": "https://images3.alphacoders.com/772/thumb-1920-772229.jpg",
+        "list": ["John Wick: Chapter 2", "xXx: Return of Xander Cage","Kingsman: The Golden Circle","The Fate of the Furious","Thor: Ragnarok","Pirates of the Caribbean:Dead Men Tell No Tales","Star Wars: The Last Jedi","War for the Planet of the Apes"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "經典重啟",
+        "name": "星際大戰8: 最後的絕地武士",
+        "title": "Star Wars: The Last Jedi",
+        "star": "",
+        "bgImg": "https://images4.alphacoders.com/882/thumb-1920-882283.jpg",
+        "list": ["Star Wars: The Last Jedi","Ghost in the Shell","Kong: Skull Island","Power Rangers","The Mummy","Beauty and the Beast"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "系列完結",
+        "name": "羅根",
+        "title": "Logan",
+        "star": "checked",
+        "bgImg": "https://images4.alphacoders.com/821/821375.jpg",
+        "list": ["Logan", "Resident Evil: The Final Chapter"]
+    }, 
+    {
+        "year": "2017個人評價最高的",
+        "type": "台灣片",
+        "name": "血觀音",
+        "title": "The Bold, The Corrupt And The Beautiful",
+        "star": "",
+        "bgImg": "http://s3.beautimode.com/upload/media/41f7c392f683215ebf77951b0f50dc23.jpg",
+        "list": ["The Corrupt And The Beautiful","Who Killed Cock Robin","52Hz, I Love You"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "韓國片",
+        "name": "與神同行",
+        "title": "Along with the Gods",
+        "star": "checked",
+        "bgImg": "https://i.ytimg.com/vi/UuE7g2CyO-g/maxresdefault.jpg",
+        "list": ["Along with the Gods","A Taxi Driver","The Battleship Island"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "日本片",
+        "name": "銀魂真人版",
+        "title": "Gintama",
+        "star": "",
+        "bgImg": "https://pbs.twimg.com/media/DC6flgFUIAA8FfW.jpg",
+        "list": ["Gintama","Honnouji hoteru","Teiichi"]
+    },  
+    {
+        "year": "2017個人評價最高的",
+        "type": "泰國片",
+        "name": "模犯生",
+        "title": "Bad Genius",
+        "star": "",
+        "bgImg": "https://best-wallpaper.net/wallpaper/2880x1800/1711/Bad-Genius-2017_2880x1800.jpg",
+        "list": ["Bad Genius","Dangal"]
+    },
+    {
+        "year": "2017個人評價最高的",
+        "type": "外語片",
+        "name": "拆彈少年",
+        "title": "Land of Mine",
+        "star": "",
+        "bgImg": "https://i1.wp.com/www.reasonformovie.com/wp-content/uploads/2017/01/1dc46b_b6bb323a8f7d4e579e7f3776c16ab8d0-mv2.jpg",
+        "list": ["The Invisible Guest","Italian Race","Land of Mine","L'outsider"]
+    }
+]

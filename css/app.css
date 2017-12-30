@@ -1,0 +1,758 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei", Arial;
+    line-height: 1.6;
+    font-size: 14px
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out
+}
+
+a:hover {
+    color: orange
+}
+
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0
+}
+
+.hidden {
+    display: none
+}
+
+.center {
+    text-align: center
+}
+
+.middle {
+    vertical-align: middle
+}
+
+.cell {
+    width: 100%
+}
+
+.subject .img {
+    height: 100%;
+    overflow: hidden
+}
+
+.subject img {
+    height: 100%
+}
+
+.subject .cover {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 12px;
+    color: #fff;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out
+}
+
+.subject:hover .cover {
+    opacity: 1
+}
+
+.subject .cover-inner {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.subject .cover p {
+    margin: 0
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%
+}
+
+.wrapper {
+    max-width: 1120px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    color: #fff
+}
+
+.card {
+    background: rgba(255,255,255,0.1); 
+    top:246px;
+}
+.card-block {
+    width:26rem;
+}
+@media (max-width: 576px) { 
+    .card {
+        background: rgba(255,255,255,0.1); 
+        top:420px;
+    }
+}
+@media (max-width: 768px) { 
+    .card {
+        background: rgba(255,255,255,0.1); 
+        top:150px;
+    }
+    .card-block {
+        width:30rem;
+    }
+}
+
+.section {
+    position: relative
+}
+
+.section .content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff
+}
+
+/*.section .table.content {
+    width: 100%;
+    height: 100%
+}*/
+
+.section .bg {
+    position: relative;
+    overflow: hidden;
+    width: 100%
+}
+
+.section .bg .mask {
+    background: #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.section .bg-img {
+    height: 100%;
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.section .enable-animate .bg-img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.section.animate .enable-animate .bg-img {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 6s ease-out;
+    -moz-transition: all 6s ease-out;
+    -ms-transition: all 6s ease-out;
+    -o-transition: all 6s ease-out;
+    transition: all 6s ease-out
+}
+
+.section .bg .bg-items,
+.section .bg .bg-items-inner,
+.section .bg-items .bg-item {
+    height: 100%
+}
+
+.section .bg-items .bg-item {
+    float: left;
+    margin-left: 2px;
+    width: 150px;
+    background: repeat-y 0 0
+}
+
+.start-page-widget .title-img {
+    height: 80px
+}
+
+.start-page-widget .logo {
+    height: 80px;
+    margin-right: 10px;
+    vertical-align: middle
+}
+
+.start-page-widget .title {
+    line-height: 1;
+    display: inline-block;
+    font-size: 92px;
+    font-weight: 100;
+    vertical-align: bottom
+}
+
+.start-page-widget .description {
+    margin-top: 45px;
+    font-size: 13px;
+    padding-bottom: 30px
+}
+
+.start-page-widget .container {
+    position: relative
+}
+
+.start-page-widget .brand-product {
+    position: absolute;
+    max-height: 100px;
+    bottom: 20px;
+    right: 0
+}
+
+.top-10-widget .top-section {
+    position: absolute;
+    width: 100%;
+    bottom: 238px
+}
+
+.person-widget .top-section {
+    bottom: 346px
+}
+
+.top-10-widget .bottom-section {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 60px
+}
+
+.top-10-widget .title-section {
+    position: relative;
+    min-width: 420px;
+    padding: 20px 20px 20px 30px;
+    border: 6px solid #fff
+}
+
+.top-10-widget .title-section.right {
+    padding: 20px 30px 20px 20px
+}
+
+.top-10-widget .brand-icon {
+    position: absolute;
+    height: 17px;
+    left: -6px;
+    top: -31px
+}
+
+.top-10-widget .left .brand-icon {
+    left: auto;
+    right: -6px
+}
+
+.top-10-widget .title {
+    line-height: 1.2;
+    margin-bottom: 12px;
+    font-size: 20px
+}
+
+.top-10-widget .title .top-title {
+    text-align: right
+}
+
+.title-section.right .title .top-title {
+    text-align: left
+}
+
+.top-10-widget .title .bottom-title {
+    float: right;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff
+}
+
+.title-section.right .title .bottom-title {
+    float: left
+}
+
+.title-label-section {
+    margin-bottom: 12px
+}
+
+.title-label-section .title-label {
+    float: right;
+    font-size: 48px;
+    line-height: 1
+}
+
+.title-label-section .vertical-line {
+    float: right;
+    width: 1px;
+    height: 36px;
+    margin: 8px 10px 0 13px;
+    background: #fff
+}
+
+.title-label-section .title {
+    float: right;
+    margin-bottom: 0
+}
+
+.title-label-section .title .top-title {
+    float: none
+}
+
+.title-label-section .title .bottom-title {
+    padding: 0;
+    border: 0
+}
+
+.title-section.right .title-label-section .title-label,
+.title-section.right .title-label-section .vertical-line,
+.title-section.right .title-label-section .title {
+    float: left
+}
+
+.title-section.right .title-label-section .vertical-line {
+    margin: 8px 13px 0 10px
+}
+
+.top-10-widget .centered-top-section {
+    text-align: center
+}
+
+.top-10-widget .title-section h2 {
+    font-size: 36px;
+    line-height: 1.3;
+    letter-spacing: 3px
+}
+
+.top-10-widget .title-section h3 {
+    font-size: 34px;
+    line-height: 1.3;
+    letter-spacing: 2px
+}
+
+.top-10-widget .title-section h2.min {
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 2px
+}
+
+.top-10-widget .title-section h3.min {
+    font-size: 34px;
+    line-height: 1.2;
+    letter-spacing: 1px
+}
+
+.top-10-widget .title-section.right h2,
+.top-10-widget .title-section.right h3 {
+    text-align: right
+}
+
+.brand-widget .title-content-wrapper {
+    max-width: 320px
+}
+
+.centered-top-section .title-section.left .title-content-wrapper {
+    text-align: left
+}
+
+.centered-top-section .title-section.right .title-content-wrapper {
+    text-align: right
+}
+
+.top-10-widget .title-section .brand-product-wrapper {
+    vertical-align: bottom;
+    padding-left: 20px
+}
+
+.top-10-widget .title-section.right .brand-product-wrapper {
+    padding-left: 0;
+    padding-right: 20px
+}
+
+.brand-widget .brand-product {
+    max-height: 80px
+}
+
+.top-10-widget .title-section .meta {
+    font-size: 15px;
+    margin-top: 6px
+}
+
+.top-10-widget .meta .stars,
+.top-10-widget .meta .rank {
+    vertical-align: middle
+}
+
+.top-10-widget .commenter-count {
+    vertical-align: middle;
+    margin-left: 6px
+}
+
+.top-10-widget .title-section.right .meta {
+    text-align: right
+}
+
+.top-10-widget .horizontal-line {
+    margin: 0 auto 40px auto;
+    width: 80px;
+    height: 6px;
+    background: #fff
+}
+
+.top-10-widget .description-section {
+    width: 560px;
+    margin: 0 auto;
+    font-size: 12px;
+    padding-top: 40px;
+    letter-spacing: 1px;
+    text-align: left
+}
+
+.top-10-widget .subjects-wrapper {
+    text-align: center
+}
+
+.top-10-widget.person-widget .subjects-wrapper {
+    width: 870px
+}
+
+.top-10-widget.person-widget .subjects-wrapper:before {
+    content: '';
+    display: inline-block;
+    width: 200px;
+    visibility: hidden
+}
+
+.top-10-widget .subject {
+    display: inline-block;
+    position: relative;
+    width: 70px;
+    height: 104px;
+    margin-right: 4px;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in
+}
+
+.top-10-widget .subject.square {
+    width: 75px;
+    height: 75px
+}
+
+.top-10-widget .subject.square .cover {
+    -webkit-transition: all 0s ease-out;
+    -moz-transition: all 0s ease-out;
+    -ms-transition: all 0s ease-out;
+    -o-transition: all 0s ease-out;
+    transition: all 0s ease-out
+}
+
+.top-10-widget.person-widget .subject {
+    width: 100px;
+    height: 100px;
+    margin-right: 28px;
+    margin-top: 8px
+}
+
+.top-10-widget.person-widget .subject .img {
+    border-radius: 50%
+}
+
+.top-10-widget .subject .num {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    line-height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.counter {
+    margin-left: 16px;
+    vertical-align: top
+}
+
+.down-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 40px;
+    margin-left: -20px;
+    cursor: pointer
+}
+
+.msk {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    z-index: 999;
+    -webkit-transform: translate3d(0%, -100%, 0);
+    transform: translate3d(0%, -100%, 0);
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    display: table
+}
+
+.msk .wp {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-animation: loading 1s linear infinite;
+    animation: loading 1s linear infinite;
+    max-width: 1020px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    color: #fff
+}
+
+.msk .wp img {
+    max-height: 52px
+}
+
+#loading {
+    height: 100%;
+    overflow: hidden
+}
+
+#loading .msk {
+    -webkit-transform: translate3d(0%, 0%, 0);
+    transform: translate3d(0%, 0%, 0)
+}
+
+#back-to-top {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    background: url(http://img6.douban.com/f/ithil/8798e324efe89ca8b8845189745387ccacb3caa3/pics/ic_backtop.png) no-repeat;
+    background: -webkit-image-set(url(http://img6.douban.com/f/ithil/8798e324efe89ca8b8845189745387ccacb3caa3/pics/ic_backtop.png) 1x, url(http://img6.douban.com/f/ithil/5ede6eb854dfa3de177a0625c30a530217a00d26/pics/ic_backtop@2x.png) 2x) no-repeat;
+    background: -moz-image-set(url(http://img6.douban.com/f/ithil/8798e324efe89ca8b8845189745387ccacb3caa3/pics/ic_backtop.png) 1x, url(http://img6.douban.com/f/ithil/f41bc71972d7aafac7a33c461a125ca40b5dc24a/ic_backtop@2x.png) 2x) no-repeat;
+    background: -o-image-set(url(http://img6.douban.com/f/ithil/8798e324efe89ca8b8845189745387ccacb3caa3/pics/ic_backtop.png) 1x, url(http://img6.douban.com/f/ithil/f41bc71972d7aafac7a33c461a125ca40b5dc24a/ic_backtop@2x.png) 2x) no-repeat;
+    background: -ms-image-set(url(http://img6.douban.com/f/ithil/8798e324efe89ca8b8845189745387ccacb3caa3/pics/ic_backtop.png) 1x, url(http://img6.douban.com/f/ithil/f41bc71972d7aafac7a33c461a125ca40b5dc24a/ic_backtop@2x.png) 2x) no-repeat
+}
+
+.pre,
+.next {
+    position: absolute;
+    line-height: 0;
+    left: 50%;
+    margin-left: -24px
+}
+
+.pre {
+    top: 10px
+}
+
+.next {
+    bottom: 10px
+}
+
+.pre img,
+.next img {
+    width: 48px
+}
+
+@-webkit-keyframes loading {
+    0% {
+        opacity: .3
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: .3
+    }
+}
+
+@keyframes loading {
+    0% {
+        opacity: .3
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: .3
+    }
+}
+
+.lyric-widget .top-section {
+    position: absolute;
+    bottom: 120px;
+    width: 100%
+}
+
+.lyric-widget .bottom-section {
+    position: absolute;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    text-align: center
+}
+
+.lyric-widget .lyric-section {
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.9;
+    letter-spacing: 1px
+}
+
+.lyric-section p {
+    margin: 0
+}
+
+.lyric-section p.s {
+    opacity: .06
+}
+
+.lyric-section p.m {
+    opacity: .2
+}
+
+.lyric-section b {
+    font-size: 38px;
+    font-weight: bolder;
+    color: #fff
+}
+
+.lyric-widget .subject-section {
+    display: inline-block
+}
+
+.lyric-widget .subject,
+.lyric-widget .subject img {
+    width: 75px;
+    height: 75px
+}
+
+.lyric-widget .meta {
+    display: block
+}
+
+.top-10-widget .cover-section-wrapper {
+    width: 343px;
+    height: 20px
+}
+
+.top-10-widget .cover-section {
+    position: relative;
+    line-height: 0
+}
+
+.top-10-widget .cover-section .line {
+    position: absolute;
+    width: 283px;
+    height: 1px;
+    background: #fff;
+    top: 98px;
+    left: -20px;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    transform: rotate(-40deg)
+}
+
+.top-10-widget .right .cover-section .line {
+    left: -40px;
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    transform: rotate(40deg)
+}
+
+.top-10-widget .cover-section img {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 160px
+}
+
+.top-10-widget.book .cover-section img {
+    top: 10px;
+    width: 140px
+}
+
+.top-10-widget.book .cover-section .line {
+    left: -30px;
+    top: 110px
+}
+
+.top-10-widget .right .cover-section img {
+    left: auto;
+    right: 40px
+}
+
+.top-10-widget .right .cover-section {
+    margin-right: 120px
+}
+
+.top-10-widget .left .cover-section {
+    margin-left: 120px
+}
+
+
+
+
+
+

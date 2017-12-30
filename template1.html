@@ -1,0 +1,60 @@
+<div class="bg enable-animate" style="background: #f9c40f;">
+    <div bg-img="{{data.bgImg}}" class="bg-img"></div>
+    <div class="mask" style="opacity: 0.1"></div>
+    <div class="bottom-mask"></div>
+</div>
+
+
+<div class="content wrapper">
+
+    <div class="title-section-wrapper left">
+        <div class="card p-2">
+                  <div class="card-block">
+                    <h4 class="card-title text-right">{{data.year}}</h4>
+                    <h3 class="card-subtitle mb-2 text-white text-right">{{data.type}}</h3>
+                    <h1 class="card-text text-white">
+                        <a target="_blank" href="{{movie[index].Website}}">{{data.name}}</a>
+                    </h1>
+                    <h2 class="card-text text-white">
+                        <a target="_blank" href="{{movie[index].Website}}">{{data.title}}</a>
+                    </h2>
+                    <div class="card-link"> 
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star {{data.star}}"></span> 
+                        <span class="rank" ng-hide="movie[index].imdbRating =='N/A'">
+                            <img border="0" src="pics/imdb.png" width="24" height="14">  
+                            {{movie[index].imdbRating}} 
+                            <span ng-hide="!movie[index].Ratings[1].Value"> 
+                                <img border="0" src="https://staticv2-4.rottentomatoes.com/static/images/icons/fresh-16.png" width="16" height="16">
+                                {{movie[index].Ratings[1].Value}}
+                            </span> 
+                        </span>
+                    </div>
+
+                  </div>
+        </div>
+    </div>
+
+    <div class="d-none d-md-block bottom-section">
+        <div class="subjects-section">
+            <div class="subjects-wrapper clearfix"> 
+                <a target="_blank" ng-href="{{value.Website}}" class="subject " data-title="{{value.Title}}" ng-repeat="(key,value) in list[index] | orderBy:'-imdbRating'">
+                    <span class="num">{{key+1}}</span>
+                    <div class="img"> 
+                        <img ng-src="{{value.Poster}}" alt="{{value.Title}}">
+                    </div>
+                    <div class="cover">
+                        <div class="cover-inner">
+                            <p>{{value.Title}}</p>
+                                <p>{{value.imdbRating}}</p>
+                        </div>
+                    </div>
+                </a>
+          </div>
+        </div>
+        
+    </div>
+</div>
